@@ -1,4 +1,4 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.accessibilityservice.AccessibilityService;
 import android.content.BroadcastReceiver;
@@ -77,7 +77,7 @@ public class ExperienceEnhanceService extends AccessibilityService {
         AccessibilityNodeInfo nodeInfo = event.getSource();
         if (nodeInfo != null) {
             String packageName = String.valueOf(nodeInfo.getPackageName());
-            if (packageName.contains("catchingnow.tinyclipboardmanager")) {
+            if (packageName.contains("starkrak.tinyclipboardmanager")) {
                 stopFloatingWindow();
                 return;
             }

@@ -1,4 +1,4 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.app.IntentService;
 import android.content.ClipboardManager;
@@ -22,8 +22,8 @@ public class ClipObjectActionBridge extends IntentService {
     public final static int ACTION_OPEN_MAIN_DIALOG = 5;
     public final static int ACTION_REFRESH_WIDGET = 6;
     public final static int ACTION_CHANGE_WIDGET_STAR = 7;
-    public final static String ACTION_CODE = "com.catchingnow.tinyclipboardmanager.actionCode";
-    public final static String STATUE_IS_STARRED  = "com.catchingnow.tinyclipboardmanager.isStarred";
+    public final static String ACTION_CODE = "com.starkrak.tinyclipboardmanager.actionCode";
+    public final static String STATUE_IS_STARRED  = "com.starkrak.tinyclipboardmanager.isStarred";
 
 
     public Handler mHandler;

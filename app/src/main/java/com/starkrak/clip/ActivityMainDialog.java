@@ -1,11 +1,8 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.content.LocalBroadcastManager;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageButton;

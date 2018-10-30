@@ -1,9 +1,8 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
 import android.webkit.MimeTypeMap;
 
 import java.io.BufferedReader;

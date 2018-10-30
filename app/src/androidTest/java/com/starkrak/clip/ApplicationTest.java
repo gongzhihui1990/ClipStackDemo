@@ -1,4 +1,4 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

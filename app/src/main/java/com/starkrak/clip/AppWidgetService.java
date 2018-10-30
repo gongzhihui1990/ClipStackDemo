@@ -1,4 +1,4 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.appwidget.AppWidgetManager;
 import android.content.Context;

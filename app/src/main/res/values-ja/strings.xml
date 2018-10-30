@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
-    <string name="app_name">切り取り箱</string>
+    <string name="app_name">Kraaak</string>
     <string name="clip_notification_copy_button">コピー</string>
     <string name="clip_notification_share_button">シェア</string>
     <string name="clip_notification_big_title">クリップボード履歴</string>

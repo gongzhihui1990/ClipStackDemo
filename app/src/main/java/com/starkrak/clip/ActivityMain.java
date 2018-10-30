@@ -1,6 +1,7 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.animation.Animator;
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.SearchManager;
 import android.content.BroadcastReceiver;
@@ -42,7 +43,7 @@ import java.util.List;
 
 
 public class ActivityMain extends MyActionBarActivity {
-    public final static String EXTRA_IS_FROM_NOTIFICATION = "com.catchingnow.tinyclipboard.EXTRA.isFromNotification";
+    public final static String EXTRA_IS_FROM_NOTIFICATION = "com.starkrak.tinyclipboard.EXTRA.isFromNotification";
     public final static String FIRST_LAUNCH = "pref_is_first_launch";
     public final static String SECOND_LAUNCH = "pref_is_second_launch";
     private static int TRANSLATION_FAST = 400;
@@ -465,7 +466,7 @@ public class ActivityMain extends MyActionBarActivity {
                     case 6:
                         Intent browserIntent = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("https://play.google.com/store/apps/details?id=com.catchingnow.tinyclipboardmanager")
+                                Uri.parse("https://play.google.com/store/apps/details?id=com.starkrak.tinyclipboardmanager")
                         );
                         startActivity(browserIntent);
                         Toast.makeText(
@@ -728,6 +729,7 @@ public class ActivityMain extends MyActionBarActivity {
         setItemsVisibility();
     }
 
+    @SuppressLint("2")
     private void firstLaunch() throws InterruptedException {
         //db.modifyClip(null, getString(R.string.first_launch_clips_3, "👈", "😇"));
         db.modifyClip(null, getString(R.string.first_launch_clipboards_3, "", "👉"));

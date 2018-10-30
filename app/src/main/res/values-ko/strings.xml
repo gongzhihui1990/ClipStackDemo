@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">클립 스택</string>
+    <string name="app_name">Kraaak</string>
     <string name="clip_notification_title">%1$s</string>
     <string name="clip_notification_copy_button">복사</string>
     <string name="clip_notification_share_button">공유</string>

@@ -7,7 +7,7 @@
 		Done by Spanti Nicola (RyDroid) in 2015
 	-->
 	
-    <string name="app_name">Clip Stack</string>
+    <string name="app_name">Kraaak</string>
     <string name="clip_notification_copy_button">Copier</string>
     <string name="clip_notification_share_button">Partager</string>
     <string name="clip_notification_big_title">Presse-papiers récents</string>

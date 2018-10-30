@@ -1,4 +1,4 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -31,6 +32,7 @@ public class ActivityEditor extends MyActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_editor);
         super.onCreate(savedInstanceState);
         Intent intent = getIntent();

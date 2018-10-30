@@ -10,12 +10,12 @@ This project is deprecated because of personal reason.
 
 ![screenshot](http://ww4.sinaimg.cn/large/66cab368gw1ep3ki6o4yzj21eq0h67am.jpg)
 
-[![Get it on Google Play Store](https://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.catchingnow.tinyclipboardmanager)
+[![Get it on Google Play Store](https://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=starkrak.tinyclipboardmanager)
 
 Other Market:
 
-[F-Droid](https://f-droid.org/repository/browse/?fdid=com.catchingnow.tinyclipboardmanager)
-[CoolAPK](http://coolapk.com/apk/com.catchingnow.tinyclipboardmanager)
+[F-Droid](https://f-droid.org/repository/browse/?fdid=starkrak.tinyclipboardmanager)
+[CoolAPK](http://coolapk.com/apk/starkrak.tinyclipboardmanager)
 
 #### Unlimited Clips
 

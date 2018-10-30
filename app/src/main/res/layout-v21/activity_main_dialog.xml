@@ -6,7 +6,7 @@
     android:layout_height="480dp"
     android:background="@color/background"
     android:animateLayoutChanges="true"
-    tools:context=".MyActivity">
+    tools:context=".ActivityMain">
     <!--
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -19,6 +19,7 @@
         android:id="@+id/my_toolbar"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
         android:layout_width="match_parent"
         android:minHeight="?attr/actionBarSize" />
 

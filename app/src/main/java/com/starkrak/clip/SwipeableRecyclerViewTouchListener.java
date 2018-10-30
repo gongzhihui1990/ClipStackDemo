@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

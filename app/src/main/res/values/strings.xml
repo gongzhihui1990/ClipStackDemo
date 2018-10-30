@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="app_name">Clip Stack</string>
+    <string name="app_name">Kraaak</string>
     <string name="clip_notification_title">%1$s</string>
     <string name="clip_notification_copy_button">Copy</string>
     <string name="clip_notification_share_button">Share</string>

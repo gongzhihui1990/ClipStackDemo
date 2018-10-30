@@ -1,4 +1,4 @@
-package com.catchingnow.clip;
+package com.starkrak.clip;
 
 import android.app.Service;
 import android.content.Context;
@@ -10,11 +10,9 @@ import android.os.IBinder;
 import android.graphics.PixelFormat;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
 
 //https://github.com/EatHeat/FloatingExample
